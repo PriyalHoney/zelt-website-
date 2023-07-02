@@ -1,6 +1,8 @@
 /* locomotive lgane k liye ye zroori h ki main ko ya to sirf height ya width de skte h  */
 /* locomotive lgane k liye height aur width dono main ko nhi de skte */
 
+/* jab v nav bar ko sticky bnana h tb usko #main k bhr rkhiye  */
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +23,11 @@ html body{
     height: 100vh;
     width: 100vw;
     background-color: black;
+}
+
+#canvas {
+    height: 100vh;
+    width: 100vw;
 }
 
 #page1{
