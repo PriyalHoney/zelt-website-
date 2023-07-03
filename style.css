@@ -3,15 +3,54 @@
 
 /* jab v nav bar ko sticky bnana h tb usko #main k bhr rkhiye  */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html body{
     height: 100%;
     width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 35vw;
+    position: fixed;
+    left: 50%;
+    top: 3%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    background-color: #F3F1EF ;
+    z-index: 6;
+
+    backdrop-filter: blur(10px);
+    padding: 0px 5px;
+}
+#nav img{
+    width: 10%;
+}
+#nav button{
+    padding: 20px 20px;
+    border-radius: 10px;
+   border: none;
+   background-color: #FFD687;
+   font-size: 15px;
+   font-weight: 800;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
 }
 
 #main{
